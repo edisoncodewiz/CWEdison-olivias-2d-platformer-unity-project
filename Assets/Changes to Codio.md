@@ -78,6 +78,8 @@ We Gotta Win:
 - Missing the following step as well to drag the Canvas variable to this field inside the PlayerController script element of the player GameObject
 - Must also turn off the Canvas before start of game
 
+- Change CanvasScaler in Canvas prefab to 'Scale With Screen Size'
+
 
 Enemies Arrived:
 - Missing instructions to drag the transform of the platform detector to the BOTTOM RIGHT of the enemy game object and not the bottom middle like the instructions say
@@ -117,6 +119,12 @@ In general:
 -my enemies collider behavior is often unexpected. Sometimes it falls from the initial platform it is on. It often doesn’t detect(?) the main camera collider
 
 - I added animation to the main player (idle and walk) and just walking animation to the enemies. It’s not as complicated as I thought it would be (there was so many bad tutorials, but I found a great one “Unity 2D Platform for Complete Beginners #2 ANIMATION” by Pandemonium) I think character animation should be an Add-On
+
+Add on: Fonts:
+Super easy! Download a font from online. In Unity select Window>TextMeshPro>Import Font Asset
+Drag the font into it, hit import, then hit save
+Now drag it wherever a textmeshpro font asset is needed!
+
 
 
 
